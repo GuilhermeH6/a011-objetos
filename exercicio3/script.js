@@ -31,8 +31,7 @@ pokemon1.ataques.push(habilidade)
 
 // c) Na cópia do objeto original, adicione a propriedade **`ataques`** a partir do **espalhamento** da propriedade criada para o objeto original;
 
-pokemon2.ataques = []
-pokemon2.ataques.push(habilidade)
+pokemon2.ataques = [...pokemon1.ataques]
 
 // d) para o objeto original, adicione o ataque **“Folha Navalha”,** com **45 de dano**, **100 de precisão**, e de tipo **“Grama”**;
 
